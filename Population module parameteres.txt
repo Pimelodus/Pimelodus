@@ -1,0 +1,85 @@
+populations v2.52, executed 2020-05-15 22:02:07 (zlib-1.2.11)
+populations -P /media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/M2_m3/ --popmap /media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/map_Pimelodus_hybrids_SNAPP.txt --out-path /media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/ -p 19 -r 1 -f p_value -t 16 --structure --write-single-snp --phylip --vcf --fasta-loci --phylip-var --phylip-var-all --treemix
+Locus/sample distributions will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 1
+  Locus Population limit: 19
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0.01
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: P-value correction.
+  Pi/Fis kernel smoothing: off
+  Fstats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 19 samples, 19 population(s), 1 group(s).
+Working on 19 samples.
+Working on 19 population(s):
+    Pcry01_Pgrosskopfii1: Pcry01.fastq
+    Pcry02_Pgrosskopfii2: Pcry02.fastq
+    Pcry04_Pcrypticus1: Pcry04.fastq
+    Pcry05_Pcrypticus2: Pcry05.fastq
+    Pcry07_Pcrypticus3: Pcry07.fastq
+    Pcry06_Pcrypticus4: Pcry06.fastq
+    Pg1015_Pgrosskopfii3: Pg1015.fastq
+    Pg1170_Pyuma1: Pg1170.fastq
+    Pg571_Pgrosskopfii4: Pg571.fastq
+    PgaCO2_Pgrosskopfii5: PgaCO2.fastq
+    PgaCO3_Pgrosskopfii6: PgaCO3.fastq
+    Py14_Pyuma2: Py14.fastq
+    Py15_Pyuma3: Py15.fastq
+    Pim002_Ppictus1: Pim002.fastq
+    Pim003_Ppictus2: Pim003.fastq
+    Pim004_Ppictus3: Pim004.fastq
+    Pbloc03_Pblochii1: Pbloc03.fastq
+    CTGA15742_Pblochii2: CTGA15742l.fastq
+    CTGA12337_Pblochii3: CTGA12337l.fastq
+Working on 1 group(s) of populations:
+    defaultgrp: Pcry01_Pgrosskopfii1, Pcry02_Pgrosskopfii2, Pcry04_Pcrypticus1, Pcry05_Pcrypticus2, Pcry07_Pcrypticus3, Pcry06_Pcrypticus4, Pg1015_Pgrosskopfii3, Pg1170_Pyuma1, Pg571_Pgrosskopfii4, PgaCO2_Pgrosskopfii5, PgaCO3_Pgrosskopfii6, Py14_Pyuma2, Py15_Pyuma3, Pim002_Ppictus1, Pim003_Ppictus2, Pim004_Ppictus3, Pbloc03_Pblochii1, CTGA15742_Pblochii2, CTGA12337_Pblochii3
+
+Polymorphic sites in Structure format will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.structure'
+Fixed difference sites in Phylip format will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.fixed.phylip'
+SNPs and calls will be written in VCF format to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.snps.vcf'
+FASTA consensus sequences for each locus in the metapopulation  will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.loci.fa'
+Polymorphic sites in Phylip format will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.var.phylip'
+All sites (fixed and variable) will be written in Phylip format to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.all.phylip'
+Per-population SNP allele counts will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.treemix'
+Raw haplotypes will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.haplotypes.tsv'
+Population-level summary statistics will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in '/media/salud/TOSHIBAEXT/RADseq_EDNA_pimelodus/TEST1_RADproc_m3_M4/populations.log.distribs'.
+Now processing...
+Batch 1 
+
+Removed 988422 loci that did not pass sample/population constraints from 992748 loci.
+Kept 4326 loci, composed of 420654 sites; 257 of those sites were filtered, 999 variant sites remained.
+Mean genotyped sites per locus: 97.24bp (stderr 0.10).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  Pcry01_Pgrosskopfii1: 1 samples per locus; pi: 0.1011; all/variant/polymorphic sites: 420654/999/101; private alleles: 21
+  Pcry02_Pgrosskopfii2: 1 samples per locus; pi: 0.087087; all/variant/polymorphic sites: 420654/999/87; private alleles: 17
+  Pcry04_Pcrypticus1: 1 samples per locus; pi: 0.075075; all/variant/polymorphic sites: 420654/999/75; private alleles: 14
+  Pcry05_Pcrypticus2: 1 samples per locus; pi: 0.074074; all/variant/polymorphic sites: 420654/999/74; private alleles: 16
+  Pcry07_Pcrypticus3: 1 samples per locus; pi: 0.067067; all/variant/polymorphic sites: 420654/999/67; private alleles: 12
+  Pcry06_Pcrypticus4: 1 samples per locus; pi: 0.07007; all/variant/polymorphic sites: 420654/999/70; private alleles: 17
+  Pg1015_Pgrosskopfii3: 1 samples per locus; pi: 0.082082; all/variant/polymorphic sites: 420654/999/82; private alleles: 16
+  Pg1170_Pyuma1: 1 samples per locus; pi: 0.14214; all/variant/polymorphic sites: 420654/999/142; private alleles: 51
+  Pg571_Pgrosskopfii4: 1 samples per locus; pi: 0.074074; all/variant/polymorphic sites: 420654/999/74; private alleles: 15
+  PgaCO2_Pgrosskopfii5: 1 samples per locus; pi: 0.083083; all/variant/polymorphic sites: 420654/999/83; private alleles: 17
+  PgaCO3_Pgrosskopfii6: 1 samples per locus; pi: 0.097097; all/variant/polymorphic sites: 420654/999/97; private alleles: 9
+  Py14_Pyuma2: 1 samples per locus; pi: 0.1011; all/variant/polymorphic sites: 420654/999/101; private alleles: 36
+  Py15_Pyuma3: 1 samples per locus; pi: 0.1031; all/variant/polymorphic sites: 420654/999/103; private alleles: 37
+  Pim002_Ppictus1: 1 samples per locus; pi: 0.094094; all/variant/polymorphic sites: 420654/999/94; private alleles: 28
+  Pim003_Ppictus2: 1 samples per locus; pi: 0.092092; all/variant/polymorphic sites: 420654/999/92; private alleles: 21
+  Pim004_Ppictus3: 1 samples per locus; pi: 0.095095; all/variant/polymorphic sites: 420654/999/95; private alleles: 21
+  Pbloc03_Pblochii1: 1 samples per locus; pi: 0.092092; all/variant/polymorphic sites: 420654/999/92; private alleles: 28
+  CTGA15742_Pblochii2: 1 samples per locus; pi: 0.045045; all/variant/polymorphic sites: 420654/999/45; private alleles: 21
+  CTGA12337_Pblochii3: 1 samples per locus; pi: 0.092092; all/variant/polymorphic sites: 420654/999/92; private alleles: 25
+Populations is done.
